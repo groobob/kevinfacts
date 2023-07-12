@@ -22,14 +22,14 @@ body {
   margin: 0;
   font-family: Inter, sans-serif;
   height: 100vh;
-  background-color: #282D35;
+  background-color: #100f35;
 }
 
 nav {
   display: flex;
   align-items: center;
-  background-color: #21222A;
-  height: 90px;
+  background-color: #241c72;
+  height: 120px;
   padding: 30px 25px;
 }
 
@@ -39,46 +39,63 @@ nav {
 
 .nav--logo_text {
   margin-right: auto;
-  color: #61DAFB;
+  color: #629de0;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 50px;
 }
 
 .nav--title {
-  color: #DEEBF8;
+  color: #7ccbda;
   font-weight: 600;
+  font-size: 30px;
 }
 
 .nav--icon {
-  height: 30px;
+  width: 80px;
   margin-right: 7px;
 }
 
 main {
   padding: 57px 27px;
   color: white;
-  background-image: url(./images/react-icon-large.png);
   background-repeat: no-repeat;
   background-position: right 75%;
 }
 
 .main--title {
   margin: 0;
-  font-size: 39px;
+  font-size: 60px;
   letter-spacing: -0.05em;
 }
 
 .main--facts {
   margin-top: 46px;
-  max-width: 400px;
 }
 
 .main--facts > li {
   line-height: 19px;
-  padding-block: 10px;
+  padding-block: 20px;
+  font-size: 25px;
 }
 
 .main--facts > li::marker {
   font-size: 1.4rem;
-  color: #61DAFB;
+  color: #272ad3;
+}
+
+.gallery {
+  padding-block: 30px;
+  display: flex;
+  background-color: #060520;
+}
+
+.gallery--kevin {
+  width: 200px;
+  margin-left: 100px;
+}
+
+.gallery--caption {
+  color: rgb(98, 110, 224);
+  font-size: 20px;
+  margin-left: 50px;
 }
